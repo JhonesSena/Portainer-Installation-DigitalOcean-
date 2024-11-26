@@ -1,4 +1,5 @@
-# Portainer-Installation-DigitalOcean-
+# Portainer-Installation-DigitalOcean
+
 Portainer Installation Guide on DigitalOcean (Ubuntu)
 
 
@@ -36,3 +37,18 @@ sudo ufw reload
 
 Access Portainer:
 Navigate to https://<SERVER_IP>:9443 in your browser, create the admin account, and start managing containers.
+
+
+Foi criado um arquivo install_portainer.sh para automatizar o processo de instalação do Docker e Portainer em uma máquina Linux com Ubuntu. Certifique-se de rodar o script como root ou usando sudo.
+
+Como usar o script
+Salve o código acima em um arquivo chamado install_portainer.sh.
+
+Torne o arquivo executável : chmod +x install_portainer.sh
+Execute o script como root : sudo ./install_portainer.sh
+
+Esse script automatiza todo o processo descrito anteriormente, incluindo configuração do firewall e inicialização do Portainer.
+
+
+
+
